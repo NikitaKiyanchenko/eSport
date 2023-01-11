@@ -71,14 +71,17 @@ header{
       background-color:orange;}
 
       @media (max-width:991px){
-          .s1,.s1:nth-child(odd){
-            flex-direction:column-reverse;
-          }
+        .s1,.s1:nth-child(odd){
+          flex-direction:column-reverse;
         }
-        @media (max-width:575px){
-          body{
-            background-color:#fff;
-            margin:0; }
+      }
+      @media (max-width:575px){
+        body{
+          background-color:#fff;
+          margin:0; }
+          .s3,.page{
+             font-size:15px;
+          }
         }
 p{
   font-size:20px;

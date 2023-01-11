@@ -135,7 +135,11 @@ header{
         body{
           background-color:#fff;
           margin:0; }
+          .s3,.page{
+             font-size:15px;
+          }
         }
+       
 .bit-text{
   display:flex;
   justify-content:center;
