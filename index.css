@@ -1,0 +1,162 @@
+.article-img{
+  display: flex;
+  justify-content: center;
+}
+.page{
+  font-size:30px;
+    text-decoration:none;
+    color:black;
+    border: 1px solid black;
+    background-color: white;
+    padding:8px 12px;
+    transition:all 340ms;
+}
+.s3:hover{
+  background-color: black;
+  border-radius:8px;
+  
+}
+.page:hover{
+  color:white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius:8px;
+}
+
+
+img{
+  width:300px;
+  height:300px;
+  transition:transform 340ms;
+
+  border-radius:15px;
+}
+
+img:hover{
+  transform: scale(1.3);
+}
+.name{
+  transition:transform 340ms;
+}
+.name:hover{
+  transform: scale(1.3);
+  background-color: #65b0ff;
+}
+
+.s1{
+    background-image:url(1.jpg);
+    background-repeat:no-repeat;
+    width:100%;
+    min-height:40vh;
+    background-size:cover;
+    padding-top:100px;
+    font-size:50px;
+}
+body{
+    margin:0;
+    background-color:#939598;
+    font-family: 'Rowdies', cursive;
+}
+.s2{
+    text-align:center;
+    color:black;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:#01142F;
+    padding:20px;
+    text-align:left;
+
+    
+}
+.s3{
+    font-size:30px;
+    text-decoration:none;
+    color:white;
+    border: 1px solid white;
+    padding:8px 12px;
+    transition:all 340ms;
+   
+  
+}
+
+
+.line{
+    width:200px;
+    height:10px; 
+    background-color:orange;
+    
+}
+.all{
+    display:flex;
+    align-items:center;
+  }
+  .all .article-img,.all.simple-text.bit-text
+  {
+    flex:50%;
+  }
+  .all:nth-child(odd){
+    flex-direction:row-reverse;
+  }
+  .wikipedia{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    border-radius:5%;
+  }
+  iframe{
+    width:500px;
+  height:300px ;
+  }
+  
+  .s1{
+    background-image:url(3.png);
+    background-repeat:no-repeat;
+    width:100%;
+    min-height:40vh;
+    background-size:cover;
+    padding-top:100px;
+    font-size:50px;
+}
+.line{
+    width:200px;
+    height:10px; 
+    background-color:orange;}
+
+    @media (max-width:991px){
+        .s1,.s1:nth-child(odd){
+          flex-direction:column-reverse;
+        }
+      }
+      @media (max-width:575px){
+        body{
+          background-color:#fff;
+          margin:0; }
+        }
+.bit-text{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items: center;
+  padding:30px;
+}
+  .silk{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    text-decoration: none; 
+    color:#2300B0;
+}
+  a:hover{
+    background-color: #B7D4FF;
+    border-radius:10px;
+  }
+  li{
+    font-size: 20px;
+  }
+  
