@@ -10,6 +10,8 @@
     background-color: white;
     padding:8px 12px;
     transition:all 340ms;
+
+  
 }
 .s3:hover{
   background-color: black;
@@ -24,23 +26,24 @@
 }
 
 
-img{
-  width:300px;
-  height:300px;
+.article-img>img{
+  width:250px;
+  height:250px;
   transition:transform 340ms;
 
   border-radius:15px;
 }
 
-img:hover{
+/* img:hover{
   transform: scale(1.3);
-}
+} */
 .name{
   transition:transform 340ms;
 }
 .name:hover{
   transform: scale(1.3);
   background-color: #65b0ff;
+  border-radius:30px;
 }
 
 .s1{
@@ -67,8 +70,11 @@ header{
     left:0;
     right:0;
     background-color:#01142F;
-    padding:20px;
+    padding:8px 0;
     text-align:left;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 
     
 }
@@ -108,8 +114,8 @@ header{
     border-radius:5%;
   }
   iframe{
-    width:500px;
-  height:300px ;
+    width:350px;
+  height:300px;
   }
   
   .s1{
@@ -145,7 +151,7 @@ header{
   justify-content:center;
   flex-direction:column;
   align-items: center;
-  padding:30px;
+ 
 }
   .silk{
     list-style:none;
@@ -162,5 +168,15 @@ header{
   }
   li{
     font-size: 20px;
+  }
+  .logoimg{
+    width:75px;
+    height:75px;
+    border-radius: 15px;
+  }
+  .card_content{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
   }
   

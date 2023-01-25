@@ -42,8 +42,12 @@ header{
   left:0;
   right:0;
   background-color:#01142F;
-  padding:20px;
+  padding:8px 0;
   text-align:left;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
 }
     h1{
         width:100%;
@@ -136,4 +140,11 @@ h2{
   background-color:#65b0ff;
   border-radius :25px;
   max-width:500px;
+}
+.logoimg{
+  width:75px;
+  height:75px;
+
+
+  border-radius:15px;
 }

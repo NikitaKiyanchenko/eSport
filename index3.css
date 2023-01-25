@@ -10,8 +10,12 @@ header{
   left:0;
   right:0;
   background-color:#01142F;
-  padding:20px;
+  padding:8px 0;
   text-align:left;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
 }
 .s3{
   font-size:30px;
@@ -104,3 +108,11 @@ p,h2{
              font-size:15px;
           }
         }
+        .logoimg{
+          width:75px;
+          height:75px;
+         
+        
+          border-radius:15px;
+        }
+        
