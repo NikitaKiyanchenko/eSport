@@ -190,6 +190,9 @@ iframe {
   height: 400px;
   border-radius: 8px;
 }
+svg{
+  display:none;
+}
 
 @media screen and (max-width: 1000px) {
   .article_content,
@@ -215,4 +218,17 @@ iframe {
   .page {
     font-size: 15px;
   }
+  svg{
+    display: inline-block;
+    margin-left :150px;
+   
+  }
+  .page, .s3{
+display: none;
+  }
+ 
 }
+svg{
+  color:white;
+}
+
