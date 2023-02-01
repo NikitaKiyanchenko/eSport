@@ -139,6 +139,7 @@ li {
     flex-direction: column-reverse;
   }
 }
+
 @media (max-width: 575px) {
   body {
     background-color: #fff;
@@ -148,6 +149,20 @@ li {
   .page {
     font-size: 15px;
   }
+  svg{
+    display: inline-block;
+    margin-left :50%;
+   
+   
+  }
+  .page, .s3{
+display: none;
+  }
+ 
+}
+svg{
+  color:white;
+ display: none;
 }
 .logoimg {
   width: 60px;

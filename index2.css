@@ -176,3 +176,27 @@ h2 {
     padding: 0 20px;
   }
 }
+@media (max-width: 575px) {
+  body {
+    background-color: #fff;
+    margin: 0;
+  }
+  .s3,
+  .page {
+    font-size: 15px;
+  }
+  svg{
+    display: inline-block;
+    margin-left :50%;
+   
+   
+  }
+  .page, .s3{
+display: none;
+  }
+ 
+}
+svg{
+  color:white;
+ display: none;
+}
